@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: '50 06 * * *' # 北京 下午 2：50  # 6pm IST
+    - cron: "50 06 * * *" # 北京 下午 2：50  # 6pm IST
   workflow_dispatch:
 
 jobs:
